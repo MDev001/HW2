@@ -1,0 +1,78 @@
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font: 15px sans-serif;
+}
+
+/* container */
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+/* tweet */
+.tweet {
+  background-color: #fff;
+  border: #cfd9de 1px solid;
+  border-radius: 16px;
+  padding: 12px;
+  max-width: 600px;
+  margin-top: 12px;
+}
+
+.user {
+  display: inline-block;
+}
+
+/* thumbnail */
+.thumbnail {
+  border-radius: 100%;
+  size: 48px;
+  float: left;
+  margin-right: 12px;
+}
+
+/* name */
+.name {
+  color: #000;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+/* metadata */
+.metadata {
+  color: #71767b;
+}
+
+/* message */
+.message {
+  color: #0f1419;
+  margin-top: 2px;
+  margin-bottom: 12px;
+}
+
+/* actions row */
+.actions-row {
+  max-width: 425px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+}
+
+/* icon */
+svg {
+  color: #536471;
+  font-size: 16px;
+  margin-right: 12px;
+}
+
+.action-count {
+  color: #536471;
+  font-size: 13px;
+}
